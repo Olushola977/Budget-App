@@ -67,11 +67,13 @@ body {
 .add-expense button:hover {
 	background: darkred;
 	color: #fff;
+	transition: 0.2s ease-out;
 }
 
 .submit-budget button:hover {
 	background: forestgreen;
 	color: #fff;
+	transition: 0.2s ease-out;
 }
 
 .form-group input {
