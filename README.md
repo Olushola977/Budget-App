@@ -1,6 +1,6 @@
 ﻿# Olushola977 - Budget App
 
-![Design preview for Budget App](./design/desktop-preview (2).png)
+![Design preview for Budget App](./design/desktop-preview.png)
 
 ## Welcome! 👋
 
