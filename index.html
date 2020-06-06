@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Budget App</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<script src="https://kit.fontawesome.com/a5717f2fac.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/budget.style.css" />
+
+</head>
+<body>
+
+	<div id="page" class="darkMode">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 mx-auto mt">
+					<div class="body p-4 border-radius">
+						<div class="title mt-2">
+							<h3>BUDGET APP</h3>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-5">
+								<div class="border-green border-radius mt-4">
+									<div class="budget p-3">
+										<div class="budget-feedback feedback p-2 bg-danger mb-3 border-radius">
+											<p>Value Cannot Be Empty Or Negative</p>
+										</div>
+										<form id="budget-form">
+											<div class="form-group">
+												<label>Please Enter Your Budget</label>
+												<input type="number" name="user_budget" class="form-control unstyled border-secondary" id="userBudget" />
+											</div>
+
+											<div class="submit-budget">
+												<button class="btn d-block border-green text-grey">Calculate</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-lg-7">
+								<div class="budgetCalculation p-3">
+									<div class="row">
+										<div class="col-lg-4">
+											<div class="showBudget text-center">
+												<h3>BUDGET</h3>
+												<i class="fas iconGreen fa-money-bill mt-1"></i>
+												<p class="showGreen mt-2 txt-40" id="budget">#<span id="budgetAmount">0</span></p>
+											</div>
+										</div>
+
+										<div class="col-lg-4">
+											<div class="showExpense text-center">
+												<h3>EXPENSE</h3>
+												<i class="fas iconGreen fa-credit-card mt-2"></i>
+												<p class="showRed mt-2 txt-40" id="expense">#<span id="expenseAmount">0</span></p>
+											</div>
+										</div>
+
+										<div class="col-lg-4">
+											<div class="showBalance text-center">
+												<h3>BALANCE</h3>
+												<i class="fas iconGreen fa-dollar-sign mt-2"></i>
+												<p class="showWhite mt-2 txt-40" id="balance">#<span id="balanceAmount">0</span></p>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-5">
+								<div class="border-radius mt-4 border-red">
+									<div class="expense p-3">
+										<div class="expense-feedback feedback p-2 bg-danger mb-3 border-radius">
+											<p>Value Cannot Be Empty Or Negative</p>
+										</div>
+										<form id="expense-form">
+											<div class="form-group">
+												<label>Please Enter Your Expense</label>
+												<input type="text" name="userExpense" class="form-control border-secondary" id="userExpenseTitle" />
+											</div>
+
+											<div class="form-group">
+												<label>Please Enter Expense Amount</label>
+												<input type="number" name="userExpenseAmount" class="form-control unstyled border-secondary" id="userExpense" />
+											</div>
+
+											<div class="add-expense">
+												<button class="btn d-block border-red text-grey">Add Expense</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+
+
+
+								<div class="col-lg-7 my-3">
+									<div class="expense-list" id="expense-list">
+										<div class="expense-list-info d-flex p-3 text-capitalize justify-content-between">
+											<h5 class="list-item">expense title</h5>
+											<h5 class="list-item">expense value</h5>
+											<h5 class="list-item"></h5>
+										</div>
+										
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/budgetapp.js"></script>
+
+</html>

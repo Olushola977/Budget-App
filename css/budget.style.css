@@ -1,0 +1,147 @@
+body {
+	padding: 0;
+	margin: 0;
+	
+}
+
+#page {
+	min-height: 100vh;
+}
+
+.darkMode {
+	background: #1d2029;
+	color: #fff;
+}
+
+.lightMode {
+	background: #F8F8F8;
+}
+
+.unstyled::-webkit-inner-spin-button {
+	display: none;
+	-webkit-appearance: none;
+}
+
+.budgetCalculation {
+	justify-content: space-around;
+}
+
+.mt {
+	margin-top: 55px
+}
+
+.budgetCalculation h3 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.budget-feedback,
+.expense-feedback {
+	display: none;
+}
+
+.showItem {
+	display: block;
+}
+
+.feedback p {
+	font-size: 15px;
+}
+
+.border-radius {
+	border-radius: 5px;
+}
+
+.border-green {
+	border: 1px solid forestgreen;
+}
+
+.border-red {
+	border: 1px solid darkred;
+}
+
+.text-grey {
+	color: #656877;
+}
+
+.add-expense button:hover {
+	background: darkred;
+	color: #fff;
+}
+
+.submit-budget button:hover {
+	background: forestgreen;
+	color: #fff;
+}
+
+.form-group input {
+	background: #F8F8F8;
+}
+
+input:focus {
+	outline: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+button:focus {
+	box-shadow: none !important;
+}
+
+.list-item a {
+	text-decoration: none;
+}
+
+.fas {
+	font-weight: 1000;
+	font-size: 60px;
+}
+
+.iconGreen {
+	color: forestgreen;
+}
+
+.iconRed {
+	color: red;
+}
+
+.darkMode .body {
+	border: 1px solid navajowhite;
+	background: #20222f;
+}
+
+.lightMode .body {
+	border: 1px solid #000;
+}
+
+.showGreen {
+	color: green;
+}
+
+.iconBlue {
+	color: blue;
+}
+
+.icon .fas {
+	font-size: 20px;
+}
+
+.bg-danger {
+	background: #ff9999;
+}
+
+.showRed {
+	color: red;
+}
+
+.showWhite {
+	color: #656877;
+}
+
+.txt-40 {
+	font-size: 40px;
+}
+
+.expense-list h3 {
+	font-size: 20px;
+}
