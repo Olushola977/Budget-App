@@ -142,8 +142,8 @@ class UI {
 		<h5 class="expense-title mb-0 text-uppercase list-item">-${expense.title}</h5>
 		<h5 class="expense-amount mb-0 list-item">${expense.amount}</h5>
 		<div class="expense-icons list-item">
-		<a href="#" class="edit-icon icon mx-2" data-id="${expense.id}"><i class="fas iconBlue fa-edit">H</i></a>
-		<a href="#" class="delete-icon icon" data-id="${expense.id}"><i class="fas iconRed fa-trash">M</i></a>
+		<a href="#" class="edit-icon icon mx-2" data-id="${expense.id}"><i class="fas iconBlue fa-edit"></i></a>
+		<a href="#" class="delete-icon icon" data-id="${expense.id}"><i class="fas iconRed fa-trash"></i></a>
 		</div>
 		</div>`;
 		this.expenseList.appendChild(div);

@@ -1,6 +1,6 @@
 ﻿# Olushola977 - Budget App
 
-![Design preview for Budget App](./design/desktop-preview.png)
+![Design preview for Budget App](./design/desktop-preview (2).png)
 
 ## Welcome! 👋
 
@@ -10,7 +10,7 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Perform actions on the App withpout receiving any errors
+- Perform actions on the App without receiving any errors
 
 ##The Project
 
@@ -21,7 +21,7 @@ the Delete Icon (to delete an expense from the Expense List).
 
 ## Giving feedback
 
-Feedback is always welcome, so if you have any to give on this Project please do.
+Feedback is always welcome, so if you have any to give on this Project please send to adeyeyeolushola977@gmail.com.
 
 
 **Have fun using!** 🚀
